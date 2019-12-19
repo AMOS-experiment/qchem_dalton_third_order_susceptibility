@@ -7,9 +7,7 @@ import parse_gammas
 
 
 def main():
-	gamma_tuples = parse_gammas.extract_gammas_from_file(argv[1])
-
-	gamma_list = 
+	gamma_list = parse_gammas.extract_gammas_from_file(argv[1]) 
 
 	print(gamma_list)
 
